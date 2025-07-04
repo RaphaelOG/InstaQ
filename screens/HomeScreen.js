@@ -10,7 +10,7 @@ import { CameraView, CameraType, useCameraPermissions } from 'expo-camera';
 // API Configuration
 // For development, use your computer's IP address instead of localhost
 // Find your IP with: ifconfig (mac/linux) or ipconfig (windows)
-const API_BASE_URL = 'http://192.168.1.160:5001/api'; // Replace XXX with your actual IP
+const API_BASE_URL = 'http://192.168.1.XXX:5001/api'; // Replace XXX with your actual IP
 // Alternative: const API_BASE_URL = 'http://localhost:5000/api'; // For web development
 
 // API Service Functions
