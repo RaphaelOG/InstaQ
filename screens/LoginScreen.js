@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { authUtils } from '../utils/auth';
 
 // API Configuration - same as HomeScreen
-const API_BASE_URL = 'http://192.168.1.160:5001/api'; // Replace with your actual IP
+const API_BASE_URL = 'http://192.168.1.XXX:5001/api'; // Replace with your actual IP
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
